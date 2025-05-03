@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila do Danas</title>
+    <link rel="stylesheet" href="./assets/estilos/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" id="menuToggle"></div>
+    </header>
+
+    <nav class="side-menu" id="sideMenu">
+        <a href="./index.html">Home</a>
+        <a href="./login.html">Login</a>
+    </nav>
+
+    <h1>Fila do Wikipedia</h1>
+
+    <div class="qr-container">
+        <img id="qrImg" src="./assets/imagens/qrcode.svg" alt="QR CODE">
+    </div>
+
+    <div class="info">
+        <p><strong>Código:</strong> <span id="codeSpan">ABC123</span></p>
+        <p><strong>Posição na fila:</strong> <span id="positionSpan">5</span></p>
+        <p><strong>Tempo estimado:</strong> <span id="timeSpan">00:15</span></p>
+    </div>
+
+    <button class="action-btn" title="Abrir Câmera">
+        <img src="./assets/imagens/camera.png" alt="Câmera" class="icon-camera">
+    </button>
+    
+    <script src="./assets/scripts/index.js"></script> 
+</body>
+</html>

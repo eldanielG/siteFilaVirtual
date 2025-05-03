@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Escanear QR</title>
+    <link rel="stylesheet" href="./assets/estilos/style.css"> <!-- Seu style.css existente -->
+</head>
+<body>
+
+    <!-- Menu Hamburguer -->
+    <header>
+        <div class="menu-icon" id="menuToggle"></div>
+    </header>
+
+    <!-- Menu Lateral -->
+    <nav class="side-menu" id="sideMenu">
+        <a href="#">Ajuda</a>
+    </nav>
+
+    <!-- Fundo escuro -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+    <!-- Informações do Usuário -->
+    <div class="info">
+        <p>Usuário</p>
+        <p>000.000.000-00</p>
+    </div>
+
+    <!-- Texto de Instrução -->
+    <h1>Escaneie o Código QR</h1>
+
+    <!-- Botão de Câmera -->
+        <div class="cameraMaior">
+            <a href="index.html">
+                <img src="./assets/imagens/camera.png" alt="Ícone de Câmera" class="icon-camera">
+            </a>
+        </div>
+    </button>
+
+    <script src="./assets/scripts/scan.js"></script>
+</body>
+</html>
