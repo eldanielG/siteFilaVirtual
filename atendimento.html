@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atendimento</title>
+  <link rel="stylesheet" href="./assets/estilos/style.css">
+</head>
+<body>
+
+  <h1>Fila do Wikipedia</h1>
+
+  <div class="qr-container">
+    <img src="./assets/imagens/qrcode.svg" alt="QR Code">
+  </div>
+
+  <p>Usuários na fila (até 5 a mostrar):</p>
+  <ul class="waiting-list" id="waitingList">
+    <!-- será preenchido por JS -->
+  </ul>
+
+  <div class="current">
+    <p>Atendendo agora: <strong><span id="currentName">—</span></strong></p>
+    <button id="finalize">FINALIZAR</button>
+    <div id="timer">Tempo: 00:00</div>
+  </div>
+
+  <script src="./assets/scripts/atendimento.js"></script>
+
+</body>
+</html>
